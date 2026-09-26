@@ -10,7 +10,7 @@ Source 1 is the deduplicated reference source. Your task is to find all matching
 
 **All files in this challenge are tab-separated (`.tsv`), and your submissions must be tab-separated too.** Tabs are used because business addresses and the ID list columns both contain commas. Read them with an explicit tab separator, for example:
 
-```python
+`
 import pandas as pd
 df = pd.read_csv("dataset/train/train_source1.tsv", sep="\t")
 ```
